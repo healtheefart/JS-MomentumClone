@@ -1,0 +1,102 @@
+body {
+  color: #ffffff;
+  font-family: "Noto Sans KR", sans-serif;
+  text-shadow: 3px 3px 6px gray;
+  background-color: transparent;
+}
+span {
+  font-weight: 100px;
+}
+.js-clock {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-weight: 400px;
+  font-size: 60px;
+  letter-spacing: -18px;
+  text-align: center;
+}
+
+input {
+  background-color: transparent;
+  width: 400px;
+  margin: 0 auto;
+  padding-bottom: 4px;
+  display: block;
+  background: 0;
+  border: 0;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  font-weight: 500;
+  outline: 0;
+  text-align: center;
+  transition: border-color 0.2s ease;
+}
+
+input::placeholder {
+  color: white;
+  font-style: italic;
+  text-shadow: 3px 3px 6px gray;
+}
+h3 {
+  font-weight: 500;
+  text-align: center;
+  font-size: 18px;
+}
+ul {
+  font-weight: 300;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form,
+.greetings {
+  display: none;
+  text-align: center;
+}
+
+button {
+  margin: 1px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  text-indent: 0;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  color: #666666;
+  font-family: arial;
+  font-size: 10px;
+  font-weight: bold;
+  font-style: normal;
+  height: 20px;
+  line-height: 20px;
+  width: 20px;
+  text-decoration: none;
+  text-align: center;
+}
+button:hover {
+  background-color: #f6f6f6;
+}
+
+.showing {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.bgImage {
+  position: absolute;
+  background-size: contain;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 110%;
+  z-index: -1;
+  animation: fadeIn 1s linear;
+}

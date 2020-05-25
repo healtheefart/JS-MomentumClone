@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+		<meta charset="UTF-8" />
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500;900&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="src/styles.css">
+  </head>
+
+  <body>
+		<span class = "js-weather"></span>
+    <div class="js-clock">
+      <h1>00:00:00</h1>
+		</div>
+		
+    <form class="js-form form">
+      <input type="text" placeholder="What is your name?" />
+		</form>
+		
+		<h2 class="js-greetings greetings"></h2>
+		
+    <form class="js-toDoForm form">
+			<input type="text" placeholder="Add task"></input>
+		</form>
+		<div>
+			<h3>👊 해야할 일</h3>
+			<ul class = "js-toDoList">
+			</ul>
+			<h3>👍 끝낸 일</h3>
+			<ul class = "js-finList">
+			</ul>
+		</div>
+		
+    <script src="src/clock.js"></script>
+    <script src="src/greetings.js"></script>
+		<script src="src/toDoList.js"></script>
+		<script src="src/bg.js"></script>
+		<script src="src/weather.js"></script>
+  </body>
+</html>
